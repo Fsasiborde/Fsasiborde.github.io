@@ -18,9 +18,12 @@
 //   }
 // });
 
+const jokecreator = document.getElementById("jokecreator");
+const guessnum = document.getElementById("guessnum");
 
-const button = document.getElementById('myButton');
-button.addEventListener('click', function() {
-  window.location.href = 'joke-creator.html';
+jokecreator.addEventListener("click", function () {
+  window.location.href = "joke-creator.html";
 });
-
+guessnum.addEventListener("click", function () {
+  window.location.href = "guess-num.html";
+});
